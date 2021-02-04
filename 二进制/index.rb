@@ -35,7 +35,7 @@ end
 
 def test_bin_to_int(bin_string)
   our_int = bin_to_int(bin_string)
-  ruby_int = eval('0b'+bin_string)
+  ruby_int = Integer('0b'+bin_string)
   puts "our_int = #{our_int}"
   puts "ruby_int = #{ruby_int}"
 end
